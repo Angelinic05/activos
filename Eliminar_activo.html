@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<script src="js/main.js" async></script>
+	<title>CampusShop</title>
+</head>
+<body>
+	<!-- SIDEBAR -->
+	<section id="sidebar">
+		<a href="#" class="brand">
+			<div class="logo">
+				<img src="images/logo.png" alt="">
+			</div>
+		Campuslands</a>
+		<ul class="side-menu">
+			<li><a href="#"><i class='bx bxs-customize icon'></i>Activos<i class='bx bx-chevron-right icon-right'></a></i>
+				<ul class="side-dropdown">
+					<li><a href="Agregar_activo.html"><i class='bx bx-plus-circle icon'></i>Agregar</a></li>
+					<li><a href="Buscar_activo.html"><i class='bx bx-search-alt icon'></i>Buscar</a></li>
+					<li><a href="Editar_activo.html"><i class='bx bxs-pencil icon'></i>Editar</a></li>
+					<li><a href="Eliminar_activo.html"><i class='bx bx-minus-circle icon'></i>Eliminar</a></li>
+				</ul>
+			</li>
+			<li><a href="#"><i class='bx bxs-inbox icon' ></i>Marcas<i class='bx bx-chevron-right icon-right' ></i></a>
+				<ul class="side-dropdown">
+					<li><a href="Agregar_activo.html"><i class='bx bx-plus-circle icon'></i>Agregar</a></li>
+					<li><a href="Buscar_activo.html"><i class='bx bx-search-alt icon'></i>Buscar</a></li>
+					<li><a href="Editar_activo.html"><i class='bx bxs-pencil icon'></i>Editar</a></li>
+					<li><a href="Eliminar_activo.html"><i class='bx bx-minus-circle icon'></i>Eliminar</a></li>
+				</ul>	
+			</li>
+			<li><a href="#"><i class='bx bx-male icon'></i>Personas<i class='bx bx-chevron-right icon-right' ></i></a>
+				<ul class="side-dropdown">
+					<li><a href="Agregar_activo.html"><i class='bx bx-plus-circle icon'></i>Agregar</a></li>
+					<li><a href="Buscar_activo.html"><i class='bx bx-search-alt icon'></i>Buscar</a></li>
+					<li><a href="Editar_activo.html"><i class='bx bxs-pencil icon'></i>Editar</a></li>
+					<li><a href="Eliminar_activo.html"><i class='bx bx-minus-circle icon'></i>Eliminar</a></li>
+				</ul>
+			</li>
+			<li><a href="#"><i class='bx bx-male icon'></i>Estado<i class='bx bx-chevron-right icon-right' ></i></a>
+				<ul class="side-dropdown">
+					<li><a href="Agregar_activo.html"><i class='bx bx-plus-circle icon'></i>Agregar</a></li>
+					<li><a href="Buscar_activo.html"><i class='bx bx-search-alt icon'></i>Buscar</a></li>
+					<li><a href="Editar_activo.html"><i class='bx bxs-pencil icon'></i>Editar</a></li>
+					<li><a href="Eliminar_activo.html"><i class='bx bx-minus-circle icon'></i>Eliminar</a></li>
+				</ul>
+			</li>
+			<li><a href="#"><i class='bx bxs-inbox icon' ></i>Tipo Persona<i class='bx bx-chevron-right icon-right' ></i></a>
+				<ul class="side-dropdown">
+					<li><a href="Agregar_activo.html"><i class='bx bx-plus-circle icon'></i>Agregar</a></li>
+					<li><a href="Buscar_activo.html"><i class='bx bx-search-alt icon'></i>Buscar</a></li>
+					<li><a href="Editar_activo.html"><i class='bx bxs-pencil icon'></i>Editar</a></li>
+					<li><a href="Eliminar_activo.html"><i class='bx bx-minus-circle icon'></i>Eliminar</a></li>
+				</ul>
+			</li>
+			<li><a href="#"><i class='bx bxs-inbox icon' ></i>Tipo De Activo<i class='bx bx-chevron-right icon-right' ></i></a>
+				<ul class="side-dropdown">
+					<li><a href="Agregar_activo.html"><i class='bx bx-plus-circle icon'></i>Agregar</a></li>
+					<li><a href="Buscar_activo.html"><i class='bx bx-search-alt icon'></i>Buscar</a></li>
+					<li><a href="Editar_activo.html"><i class='bx bxs-pencil icon'></i>Editar</a></li>
+					<li><a href="Eliminar_activo.html"><i class='bx bx-minus-circle icon'></i>Eliminar</a></li>
+				</ul>
+			</li>
+			<li><a href="#"><i class='bx bxs-inbox icon' ></i>Tipo Mov Activo<i class='bx bx-chevron-right icon-right' ></i></a>
+				<ul class="side-dropdown">
+					<li><a href="Agregar_activo.html"><i class='bx bx-plus-circle icon'></i>Agregar</a></li>
+					<li><a href="Buscar_activo.html"><i class='bx bx-search-alt icon'></i>Buscar</a></li>
+					<li><a href="Editar_activo.html"><i class='bx bxs-pencil icon'></i>Editar</a></li>
+					<li><a href="Eliminar_activo.html"><i class='bx bx-minus-circle icon'></i>Eliminar</a></li>
+				</ul>
+			</li>
+			
+			<li class="divider" data-text="Asignaciones"></li>
+			<li><a href="#"><i class='bx bxs-add-to-queue icon'></i>Asignacion<i class='bx bx-chevron-right icon-right' ></i></a>
+				<ul class="side-dropdown">
+					<li><a href="Agregar_activo.html"><i class='bx bx-plus-circle icon'></i>Agregar</a></li>
+					<li><a href="Buscar_activo.html"><i class='bx bx-search-alt icon'></i>Buscar</a></li>
+					<li><a href="Editar_activo.html"><i class='bx bxs-pencil icon'></i>Editar</a></li>
+					<li><a href="Eliminar_activo.html"><i class='bx bx-minus-circle icon'></i>Eliminar</a></li>
+				</ul>
+			</li>
+		</ul>
+	</section>
+	<!-- SIDEBAR -->
+
+	<!-- NAVBAR -->
+	<section id="content">
+		<!-- NAVBAR -->
+		<nav>
+			<i class='bx bx-menu toggle-sidebar' ></i>
+			<form action="#"></form>
+			<div class="container">
+				<form class="d-flex" role="search">
+				  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+				  <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+				</form>
+			  </div>
+			<span class="divider"></span>
+		</nav>
+		<!-- NAVBAR -->
+
+		<!-- MAIN -->
+		<main class="main">
+			<h2>Eliminar Activo</h2>
+			<div class="container-fluid">
+				<table class="table table-hover">
+					<tr>
+						<th>Item</th>
+						<th>Codigo transaccion</th>
+						<th>Formulario</th>
+						<th>P.Empresa</th>
+						<th>Fecha Compra</th>
+						<th>Nit</th>
+						<th>Proveedor</th>
+						<th>Descripcion Item</th>
+						<th>Serial</th>
+						<th>Categoria</th>
+						<th>Cantidad</th>
+						<th>Ubicacion</th>
+						<td></td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>324</td>
+						<td>966217120</td>
+						<td>Campuslands</td>
+						<td>11/01/2023</td>
+						<td>900868271</td>
+						<td>Decathlon Colombia Sas</td>
+						<td>Mesa de Ping pong</td>
+						<td>N/A</td>
+						<td>Juegos</td>
+						<td>3</td>
+						<td>Zona Hunters</td>
+						<td><div class="mb-3 form-check">
+							<input type="checkbox" class="form-check-input" id="exampleCheck1">
+							<label class="form-check-label" for="exampleCheck1"></label>
+						</div></td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>324</td>
+						<td>966217120</td>
+						<td>Campuslands</td>
+						<td>11/01/2023</td>
+						<td>900868271</td>
+						<td>Decathlon Colombia Sas</td>
+						<td>Mesa de Ping pong</td>
+						<td>N/A</td>
+						<td>Juegos</td>
+						<td>3</td>
+						<td>Zona Hunters</td>
+						<td><div class="mb-3 form-check">
+							<input type="checkbox" class="form-check-input" id="exampleCheck1">
+							<label class="form-check-label" for="exampleCheck1"></label>
+						</div></td>
+						
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>324</td>
+						<td>966217120</td>
+						<td>Campuslands</td>
+						<td>11/01/2023</td>
+						<td>900868271</td>
+						<td>Decathlon Colombia Sas</td>
+						<td>Mesa de Ping pong</td>
+						<td>N/A</td>
+						<td>Juegos</td>
+						<td>3</td>
+						<td>Zona Hunters</td>
+						<td><div class="mb-3 form-check">
+							<input type="checkbox" class="form-check-input" id="exampleCheck1">
+							<label class="form-check-label" for="exampleCheck1"></label>
+						</div></td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>324</td>
+						<td>966217120</td>
+						<td>Campuslands</td>
+						<td>11/01/2023</td>
+						<td>900868271</td>
+						<td>Decathlon Colombia Sas</td>
+						<td>Mesa de Ping pong</td>
+						<td>N/A</td>
+						<td>Juegos</td>
+						<td>3</td>
+						<td>Zona Hunters</td>
+						<td><div class="mb-3 form-check">
+							<input type="checkbox" class="form-check-input" id="exampleCheck1">
+							<label class="form-check-label" for="exampleCheck1"></label>
+						</div></td>
+						<tr>
+							<td>1</td>
+							<td>324</td>
+							<td>966217120</td>
+							<td>Campuslands</td>
+							<td>11/01/2023</td>
+							<td>900868271</td>
+							<td>Decathlon Colombia Sas</td>
+							<td>Mesa de Ping pong</td>
+							<td>N/A</td>
+							<td>Juegos</td>
+							<td>3</td>
+							<td>Zona Hunters</td>
+							<td><div class="mb-3 form-check">
+								<input type="checkbox" class="form-check-input" id="exampleCheck1">
+								<label class="form-check-label" for="exampleCheck1"></label>
+							</div></td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>324</td>
+							<td>966217120</td>
+							<td>Campuslands</td>
+							<td>11/01/2023</td>
+							<td>900868271</td>
+							<td>Decathlon Colombia Sas</td>
+							<td>Mesa de Ping pong</td>
+							<td>N/A</td>
+							<td>Juegos</td>
+							<td>3</td>
+							<td>Zona Hunters</td>
+							<td><div class="mb-3 form-check">
+								<input type="checkbox" class="form-check-input" id="exampleCheck1">
+								<label class="form-check-label" for="exampleCheck1"></label>
+							</div></td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>324</td>
+							<td>966217120</td>
+							<td>Campuslands</td>
+							<td>11/01/2023</td>
+							<td>900868271</td>
+							<td>Decathlon Colombia Sas</td>
+							<td>Mesa de Ping pong</td>
+							<td>N/A</td>
+							<td>Juegos</td>
+							<td>3</td>
+							<td>Zona Hunters</td>
+							<td><div class="mb-3 form-check">
+								<input type="checkbox" class="form-check-input" id="exampleCheck1">
+								<label class="form-check-label" for="exampleCheck1"></label>
+							</div></td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>324</td>
+							<td>966217120</td>
+							<td>Campuslands</td>
+							<td>11/01/2023</td>
+							<td>900868271</td>
+							<td>Decathlon Colombia Sas</td>
+							<td>Mesa de Ping pong</td>
+							<td>N/A</td>
+							<td>Juegos</td>
+							<td>3</td>
+							<td>Zona Hunters</td>
+							<td><div class="mb-3 form-check">
+								<input type="checkbox" class="form-check-input" id="exampleCheck1">
+								<label class="form-check-label" for="exampleCheck1"></label>
+							</div></td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>324</td>
+							<td>966217120</td>
+							<td>Campuslands</td>
+							<td>11/01/2023</td>
+							<td>900868271</td>
+							<td>Decathlon Colombia Sas</td>
+							<td>Mesa de Ping pong</td>
+							<td>N/A</td>
+							<td>Juegos</td>
+							<td>3</td>
+							<td>Zona Hunters</td>
+							<td><div class="mb-3 form-check">
+								<input type="checkbox" class="form-check-input" id="exampleCheck1">
+								<label class="form-check-label" for="exampleCheck1"></label>
+							</div></td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>324</td>
+							<td>966217120</td>
+							<td>Campuslands</td>
+							<td>11/01/2023</td>
+							<td>900868271</td>
+							<td>Decathlon Colombia Sas</td>
+							<td>Mesa de Ping pong</td>
+							<td>N/A</td>
+							<td>Juegos</td>
+							<td>3</td>
+							<td>Zona Hunters</td>
+							<td><div class="mb-3 form-check">
+								<input type="checkbox" class="form-check-input" id="exampleCheck1">
+								<label class="form-check-label" for="exampleCheck1"></label>
+							</div></td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>324</td>
+							<td>966217120</td>
+							<td>Campuslands</td>
+							<td>11/01/2023</td>
+							<td>900868271</td>
+							<td>Decathlon Colombia Sas</td>
+							<td>Mesa de Ping pong</td>
+							<td>N/A</td>
+							<td>Juegos</td>
+							<td>3</td>
+							<td>Zona Hunters</td>
+							<td><div class="mb-3 form-check">
+								<input type="checkbox" class="form-check-input" id="exampleCheck1">
+								<label class="form-check-label" for="exampleCheck1"></label>
+							</div></td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>324</td>
+							<td>966217120</td>
+							<td>Campuslands</td>
+							<td>11/01/2023</td>
+							<td>900868271</td>
+							<td>Decathlon Colombia Sas</td>
+							<td>Mesa de Ping pong</td>
+							<td>N/A</td>
+							<td>Juegos</td>
+							<td>3</td>
+							<td>Zona Hunters</td>
+							<td><div class="mb-3 form-check">
+								<input type="checkbox" class="form-check-input" id="exampleCheck1">
+								<label class="form-check-label" for="exampleCheck1"></label>
+							</div></td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>324</td>
+							<td>966217120</td>
+							<td>Campuslands</td>
+							<td>11/01/2023</td>
+							<td>900868271</td>
+							<td>Decathlon Colombia Sas</td>
+							<td>Mesa de Ping pong</td>
+							<td>N/A</td>
+							<td>Juegos</td>
+							<td>3</td>
+							<td>Zona Hunters</td>
+							<td><div class="mb-3 form-check">
+								<input type="checkbox" class="form-check-input" id="exampleCheck1">
+								<label class="form-check-label" for="exampleCheck1"></label>
+							</div></td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>324</td>
+							<td>966217120</td>
+							<td>Campuslands</td>
+							<td>11/01/2023</td>
+							<td>900868271</td>
+							<td>Decathlon Colombia Sas</td>
+							<td>Mesa de Ping pong</td>
+							<td>N/A</td>
+							<td>Juegos</td>
+							<td>3</td>
+							<td>Zona Hunters</td>
+							<td><div class="mb-3 form-check">
+								<input type="checkbox" class="form-check-input" id="exampleCheck1">
+								<label class="form-check-label" for="exampleCheck1"></label>
+							</div></td>
+						</tr>
+					</tr>
+				</table>
+
+			</div>
+			<button type="button" class="btn btn-outline-primary">Eliminar Asignacion</button>
+			
+		</main>
+		<!-- MAIN -->
+	</section>
+	<!-- NAVBAR -->
+</body>
+</html>
