@@ -12064,7 +12064,7 @@ textarea.form-control-lg {
 
 
 
-/* ----------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------- */
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
 
@@ -12159,7 +12159,6 @@ main{
 	position: sticky;
 	top: 0;
 	left: 0;
-	z-index: 100;
   gap: 14px;
 	background: var(--grey);
 	transition: all .3s ease;
@@ -12685,5 +12684,71 @@ main .btn-send:hover {
 h2{
   font-size: 2rem;
   color: var(--blue);
+}
+
+/* ------------------------------------------------------- */
+
+.ventana{
+  display: grid;
+  grid-template-rows: 10% 80% 10%;
+  background-color: var(--grey);
+  margin: 10%;
+  margin-left: 20%;
+  width: 1100px;
+  height: 600px;
+  padding: 60px;
+  border-radius: 2%;
+  position: relative;
+  z-index: 101;
+}
+.contp{
+  width: 90%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 14%;
+}
+.cont1, .cont2{
+  margin-top: 10%;
+  width: 97%;
+  height: 40px;
+}
+
+
+
+.modale{
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  margin-top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  pointer-events: none;
+  transition: all 0.1s;
+  visibility: hidden;
+}
+
+
+.modale:target{
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
+  transition: all 0.1s;
+}
+.cerrar {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+/* ELIMINAR---------------------------------------- */
+
+#segundoBoton{
+  display: none;
+}
+
+#segundoBoton:target{
+  display: block;
 }
 

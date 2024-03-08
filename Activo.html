@@ -19,10 +19,54 @@
 		<ul class="side-menu">
 			<li><a href="#"><i class='bx bxs-customize icon'></i>Activos<i class='bx bx-chevron-right icon-right'></a></i>
 				<ul class="side-dropdown">
-					<li><a href="Agregar_activo.html"><i class='bx bx-plus-circle icon'></i>Agregar</a></li>
-					<li><a href="Buscar_activo.html"><i class='bx bx-search-alt icon'></i>Buscar</a></li>
-					<li><a href="Editar_activo.html"><i class='bx bxs-pencil icon'></i>Editar</a></li>
-					<li><a href="Eliminar_activo.html"><i class='bx bx-minus-circle icon'></i>Eliminar</a></li>
+					<li><a href="#Irventana1"><i class='bx bx-plus-circle icon'></i>Agregar</a></li>
+					<div id="Irventana1" class="modale">
+						<Form>
+						<div class="ventana">
+							<div><h1>Registro Activo</h1></div>
+							<div class="contp">
+								<div class="cont1">
+									<div class="mb-3">
+										<label class="form-label">Nombre Completo</label>
+										<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+									</div>
+									<div class="mb-3">
+										<label for="exampleInputEmail1" class="form-label">Email</label>
+										<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+									</div>
+									<label  class="form-label">Genero</label>
+									<select class="form-select" aria-label="Default select example">
+										<option value="1">Masculino</option>
+										<option value="2">Femenino</option>
+									</select>
+								</div>
+								<div class="cont2">
+									<div class="mb-3">
+										<label class="form-label">Fecha de Nacimiento</label>
+										<input type="date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+									</div>
+									<div class="mb-3">
+										<label class="form-label">Numero de Contacto</label>
+										<input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+									</div>
+									<div class="mb-3">
+										<label  class="form-label">Ocupacion</label>
+										<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+									</div>
+								</div>
+							</div>
+							<button type="button" class="btn btn-outline-primary">Crear Asignacion</button>
+							</Form>
+							
+							<a href="#cerrar" class="cerrar"><B style="color: black;">X</B></a>
+						</div>
+					</div>
+
+
+
+					<li><a href="Activo.html"><i class='bx bx-search-alt icon'></i>Buscar</a></li>
+					<li><a href="Activo.html"><i class='bx bxs-pencil icon'></i>Editar</a></li>
+					<li><a href="#segundoBoton"><i class='bx bx-minus-circle icon' id="mostrarBoton"></i>Eliminar</a></li>
 				</ul>
 			</li>
 			<li><a href="#"><i class='bx bxs-inbox icon' ></i>Marcas<i class='bx bx-chevron-right icon-right' ></i></a>
@@ -92,6 +136,14 @@
 		<!-- NAVBAR -->
 		<nav>
 			<i class='bx bx-menu toggle-sidebar' ></i>
+			<form action="#"></form>
+			<div class="container">
+				<form class="d-flex" role="search">
+				  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+				  <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+				</form>
+			  </div>
+			<span class="divider"></span>
 		</nav>
 		<!-- NAVBAR -->
 
@@ -112,7 +164,7 @@
 						<th>Serial</th>
 						<th>Categoria</th>
 						<th>Cantidad</th>
-						<th>Ubicacion</th>
+						<th>Ubicacion</th>																
 					</tr>
 					<tr>
 						<td>1</td>
@@ -127,6 +179,10 @@
 						<td>Juegos</td>
 						<td>3</td>
 						<td>Zona Hunters</td>
+						<td><div class="mb-3 form-check">
+							<input type="checkbox" class="form-check-input" id="exampleCheck1">
+							<label class="form-check-label" for="exampleCheck1"></label>
+						</div></td>
 					</tr>
 					<tr>
 						<td>1</td>
@@ -141,6 +197,10 @@
 						<td>Juegos</td>
 						<td>3</td>
 						<td>Zona Hunters</td>
+						<td><div class="mb-3 form-check">
+							<input type="checkbox" class="form-check-input" id="exampleCheck1">
+							<label class="form-check-label" for="exampleCheck1"></label>
+						</div></td>
 					</tr>
 					<tr>
 						<td>1</td>
@@ -155,6 +215,10 @@
 						<td>Juegos</td>
 						<td>3</td>
 						<td>Zona Hunters</td>
+						<td><div class="mb-3 form-check">
+							<input type="checkbox" class="form-check-input" id="exampleCheck1">
+							<label class="form-check-label" for="exampleCheck1"></label>
+						</div></td>
 					</tr>
 					<tr>
 						<td>1</td>
@@ -169,6 +233,10 @@
 						<td>Juegos</td>
 						<td>3</td>
 						<td>Zona Hunters</td>
+						<td><div class="mb-3 form-check">
+							<input type="checkbox" class="form-check-input" id="exampleCheck1">
+							<label class="form-check-label" for="exampleCheck1"></label>
+						</div></td>
 						<tr>
 							<td>1</td>
 							<td>324</td>
@@ -182,6 +250,10 @@
 							<td>Juegos</td>
 							<td>3</td>
 							<td>Zona Hunters</td>
+						<td><div class="mb-3 form-check">
+							<input type="checkbox" class="form-check-input" id="exampleCheck1">
+							<label class="form-check-label" for="exampleCheck1"></label>
+						</div></td>
 						</tr>
 						<tr>
 							<td>1</td>
@@ -196,6 +268,10 @@
 							<td>Juegos</td>
 							<td>3</td>
 							<td>Zona Hunters</td>
+						<td><div class="mb-3 form-check">
+							<input type="checkbox" class="form-check-input" id="exampleCheck1">
+							<label class="form-check-label" for="exampleCheck1"></label>
+						</div></td>
 						</tr>
 						<tr>
 							<td>1</td>
@@ -210,6 +286,10 @@
 							<td>Juegos</td>
 							<td>3</td>
 							<td>Zona Hunters</td>
+						<td><div class="mb-3 form-check">
+							<input type="checkbox" class="form-check-input" id="exampleCheck1">
+							<label class="form-check-label" for="exampleCheck1"></label>
+						</div></td>
 						</tr>
 						<tr>
 							<td>1</td>
@@ -224,6 +304,10 @@
 							<td>Juegos</td>
 							<td>3</td>
 							<td>Zona Hunters</td>
+						<td><div class="mb-3 form-check">
+							<input type="checkbox" class="form-check-input" id="exampleCheck1">
+							<label class="form-check-label" for="exampleCheck1"></label>
+						</div></td>
 						</tr>
 						<tr>
 							<td>1</td>
@@ -238,6 +322,10 @@
 							<td>Juegos</td>
 							<td>3</td>
 							<td>Zona Hunters</td>
+						<td><div class="mb-3 form-check">
+							<input type="checkbox" class="form-check-input" id="exampleCheck1">
+							<label class="form-check-label" for="exampleCheck1"></label>
+						</div></td>
 						</tr>
 						<tr>
 							<td>1</td>
@@ -252,6 +340,10 @@
 							<td>Juegos</td>
 							<td>3</td>
 							<td>Zona Hunters</td>
+						<td><div class="mb-3 form-check">
+							<input type="checkbox" class="form-check-input" id="exampleCheck1">
+							<label class="form-check-label" for="exampleCheck1"></label>
+						</div></td>
 						</tr>
 						<tr>
 							<td>1</td>
@@ -266,6 +358,10 @@
 							<td>Juegos</td>
 							<td>3</td>
 							<td>Zona Hunters</td>
+						<td><div class="mb-3 form-check">
+							<input type="checkbox" class="form-check-input" id="exampleCheck1">
+							<label class="form-check-label" for="exampleCheck1"></label>
+						</div></td>
 						</tr>
 						<tr>
 							<td>1</td>
@@ -280,6 +376,10 @@
 							<td>Juegos</td>
 							<td>3</td>
 							<td>Zona Hunters</td>
+						<td><div class="mb-3 form-check">
+							<input type="checkbox" class="form-check-input" id="exampleCheck1">
+							<label class="form-check-label" for="exampleCheck1"></label>
+						</div></td>
 						</tr>
 						<tr>
 							<td>1</td>
@@ -294,6 +394,10 @@
 							<td>Juegos</td>
 							<td>3</td>
 							<td>Zona Hunters</td>
+						<td><div class="mb-3 form-check">
+							<input type="checkbox" class="form-check-input" id="exampleCheck1">
+							<label class="form-check-label" for="exampleCheck1"></label>
+						</div></td>
 						</tr>
 						<tr>
 							<td>1</td>
@@ -308,12 +412,17 @@
 							<td>Juegos</td>
 							<td>3</td>
 							<td>Zona Hunters</td>
+						<td><div class="mb-3 form-check">
+							<input type="checkbox" class="form-check-input" id="exampleCheck1">
+							<label class="form-check-label" for="exampleCheck1"></label>
+						</div></td>
 						</tr>
 					</tr>
 				</table>
 
 			</div>
-			<button type="button" class="btn btn-outline-primary">Crear Asignacion</button>
+			<button type="button" class="btn btn-outline-primary" id="segundoBoton">Eliminar Asignacion</button>
+
 			
 		</main>
 		<!-- MAIN -->
